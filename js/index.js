@@ -56,6 +56,17 @@ var map_filter = function(id_val) {
 function loadMarkers() {
   console.log('creating markers')
 
+  //SVG
+  var cafe = {
+    path: 'M113,358.5h205c11.333,0,21-4,29-12s12-17.667,12-29v-51c31.333,0,58-11,80-33s33-48.5,33-79.5
+    s-11-57.5-33-79.5s-48.667-33-80-33h-41H113H72v41v102v133c0,11.333,4,21,12,29S101.667,358.5,113,358.5z M359,184.5v-92
+    c16.667,0,31,6,43,18s18,26.5,18,43.5s-6,31.5-18,43.5s-26.333,18-43,18V184.5z',
+    fillColor: 'red',
+    fillOpacity: 0.8,
+    scale: 1,
+  };
+
+
   var iconBase = '/joseantonio/images/';
   var icons = {
     cafe: {
@@ -81,12 +92,13 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
-          icon: icons[image].icon,
+          //icon: icons[image].icon,
+          icon: cafe,
           map: map,
           properties: val['properties']
          });
 
-        var markerInfo = "<div><h3>" + titleText + "</h3>Descripcion: " + descriptionText + "</div>"
+        var markerInfo = "<div><h3>" + titleText + "</h3>" + descriptionText + "</div>"
 
 
         marker.addListener('click', function() {
