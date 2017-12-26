@@ -85,7 +85,7 @@ function loadMarkers() {
           icon: ' ',
           map: map,
           labelContent: '<i class="fa fa-map-marker" style="font-size:48px;color:red"></i>',
-          //labelAnchor: new google.maps.Point(22, 50),
+          labelAnchor: new google.maps.Point(22, 50),
           properties: val['properties']
          });
 
