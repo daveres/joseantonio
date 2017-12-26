@@ -81,8 +81,11 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
-          icon: icons[image].icon,
+          //icon: icons[image].icon,
+          icon: '',
           map: map,
+          labelContent: '<i class="fa fa-send fa-3x" style="color:rgba(153,102,102,0.8);"></i>',
+          labelAnchor: new google.maps.Point(22, 50),
           properties: val['properties']
          });
 
@@ -101,7 +104,7 @@ function loadMarkers() {
 function initMap() {
     map_options = {
       zoom: 10,
-      mapTypeId: google.maps.MapTypeId.HYBRID,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
       center: {lat: 39.4762085, lng: -0.3779963}
     }
     
