@@ -55,6 +55,17 @@ var map_filter = function(id_val) {
 // and add the pop up (info) windows
 function loadMarkers() {
   console.log('creating markers')
+
+  var iconBase = '/images/';
+  var icons = {
+    cafe: {
+      icon: iconBase + 'cafe.png'
+    },
+    academico: {
+      icon: iconBase + 'university.png'
+    }
+  };
+
   var infoWindow = new google.maps.InfoWindow()
   geojson_url = '/joseantonio/geojson/valencia.geojson'
   $.getJSON(geojson_url, function(result) {
@@ -66,9 +77,11 @@ function loadMarkers() {
                 parseFloat(val['geometry']['coordinates'][0]));
         var titleText = val['properties']['name']
         var descriptionText = val['properties']['description']
+        var image = val['properties']['type']
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
+          icon: icons[image].icon,
           map: map,
           properties: val['properties']
          });
