@@ -56,7 +56,7 @@ var map_filter = function(id_val) {
 function loadMarkers() {
   console.log('creating markers')
   var infoWindow = new google.maps.InfoWindow()
-  geojson_url = '/geojson/valencia.geojson'
+  geojson_url = '/joseantonio/geojson/valencia.geojson'
   $.getJSON(geojson_url, function(result) {
       // Post select to url.
       data = result['features']
