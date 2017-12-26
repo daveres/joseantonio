@@ -13,7 +13,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Café Lisboa",
-        "type": "cafe"
+        "type": "cafe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam laoreet mi dui, pellentesque consectetur metus euismod eu. Nam consectetur turpis ut ultrices congue. In facilisis ipsum a urna facilisis, vel interdum ligula tempus. Aliquam felis magna, egestas ac justo eu, malesuada vulputate lorem. Aliquam tincidunt velit vel interdum mattis. Fusce viverra, eros non viverra interdum, ex risus cursus nibh, a cursus mauris risus ac lorem. Vivamus ac nunc ut libero semper blandit posuere a mi. Quisque imperdiet mauris ac massa semper tincidunt. Donec non augue dapibus, pulvinar tortor at, egestas massa. In hac habitasse platea dictumst."
       },
       "geometry": {
         "type": "Point",
@@ -35,7 +36,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Universidad de Valencia",
-        "type": "académico"
+        "type": "académico",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat lacus ipsum, dapibus aliquam massa ultricies vel. Nunc tristique condimentum nisi, vel ultricies dolor semper vitae. Fusce ante nisl, dapibus euismod justo at, tincidunt interdum quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sit amet iaculis est, a efficitur lacus. Nullam et odio accumsan, cursus mi vel, bibendum metus. Sed non leo sollicitudin, tincidunt nisl ut, sagittis enim. Ut sollicitudin consequat accumsan. Quisque id ante consectetur, accumsan velit sed, tristique ante. Sed non erat vulputate, dignissim arcu eu, ullamcorper lacus. Quisque lacinia at ipsum non consequat. In turpis tortor, feugiat eget vehicula et, convallis nec eros. Duis quis nulla pulvinar, placerat ligula vitae, scelerisque augue. Suspendisse posuere tortor tellus, vitae congue odio facilisis vel. Quisque sodales dolor ac tellus facilisis, id tincidunt felis sollicitudin."
       },
       "geometry": {
         "type": "Point",
