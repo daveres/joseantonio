@@ -1,0 +1,3 @@
+https://www.shareicon.net/pack/pins-of-maps
+https://github.com/google/material-design-icons/tree/master/maps
+https://github.com/jonathanhoth/google-maps-icons
