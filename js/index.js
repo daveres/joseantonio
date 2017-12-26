@@ -96,6 +96,7 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
+          content: titleText,
           icon: icons[image].icon,
           //icon: image,
           map: map,
