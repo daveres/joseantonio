@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "1960": 0,
+        "1970": 1,
+        "1980": 1,
+        "1990": 0,
+        "2000": 0,
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Café Lisboa",
+        "type": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37771403789520264,
+          39.47423917903355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "1960": 1,
+        "1970": 1,
+        "1980": 0,
+        "1990": 1,
+        "2000": 1,
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Universidad de Valencia",
+        "type": "académico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3578495979309082,
+          39.47920181142187
+        ]
+      }
+    }
+  ]
+}
