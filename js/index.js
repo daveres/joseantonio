@@ -96,7 +96,6 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
-          content: titleText,
           icon: icons[image].icon,
           //icon: image,
           map: map,
@@ -108,6 +107,7 @@ function loadMarkers() {
 
         marker.addListener('click', function() {
            $('#campground_info').html(markerInfo);
+           infowindow.setContent(title);
            infoWindow.open(map, marker);
         });
         markers.push(marker)
