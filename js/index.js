@@ -74,10 +74,10 @@ function loadMarkers() {
   var iconBase = '/joseantonio/images/';
   var icons = {
     cafe: {
-      icon: iconBase + 'cafe.png'
+      icon: iconBase + 'cafe.svg'
     },
     academico: {
-      icon: iconBase + 'university.png'
+      icon: iconBase + 'university.svg'
     }
   };
 
@@ -96,8 +96,8 @@ function loadMarkers() {
         var marker = new google.maps.Marker({
           position: point,
           title: titleText,
-          //icon: icons[image].icon,
-          icon: image,
+          icon: icons[image].icon,
+          //icon: image,
           map: map,
           properties: val['properties']
          });
