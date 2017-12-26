@@ -56,7 +56,7 @@ var map_filter = function(id_val) {
 function loadMarkers() {
   console.log('creating markers')
 
-  var iconBase = '/images/';
+  var iconBase = '/joseantonio/images/';
   var icons = {
     cafe: {
       icon: iconBase + 'cafe.png'
