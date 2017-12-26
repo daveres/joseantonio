@@ -118,7 +118,12 @@ function initMap() {
     map_options = {
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
-      center: {lat: 39.4762085, lng: -0.3779963}
+      center: {lat: 39.4762085, lng: -0.3779963},
+      styles: 
+        [{
+          "featureType": "poi.business",
+          "stylers": [{"visibility": "off"}]
+        }]
     }
     
     map_document = document.getElementById('map')
