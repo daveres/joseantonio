@@ -89,7 +89,7 @@ function initMap() {
     map_options = {
       zoom: 10,
       mapTypeId: google.maps.MapTypeId.HYBRID,
-      center: {lat: 42.9456, lng: -122.2}
+      center: {lat: 39.4762085, lng: -0.3779963}
     }
     
     map_document = document.getElementById('map')
