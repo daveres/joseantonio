@@ -107,7 +107,7 @@ function loadMarkers() {
 
         marker.addListener('click', function() {
            $('#campground_info').html(markerInfo);
-           infoWindow.setContent(title);
+           infoWindow.setContent(this.title);
            infoWindow.open(map, marker);
         });
         markers.push(marker)
