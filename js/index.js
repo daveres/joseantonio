@@ -118,9 +118,9 @@ function loadMarkers() {
 
 function initMap() {
     map_options = {
-      zoom: 10,
+      zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
-      center: {lat: 39.4762085, lng: -0.3779963},
+      center: {lat: 39.47051438423984, lng: -0.37698984146118164},
       styles: 
         [{
           "featureType": "poi.business",
